@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açaí Delivery - Peça o Melhor Açaí!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍇 Açaí Delivery</h1>
+        <p>O melhor açaí, cremoso e delicioso, entregue na sua casa! 🍧</p>
+    </header>
+
+    <section class="cardapio">
+        <h2>🍓 Monte o Seu Açaí!</h2>
+        <div class="opcoes">
+            <div class="item">
+                <img src="acai1.jpg" alt="Açaí com frutas">
+                <p>Açaí com Banana e Morango</p>
+                <span>R$ 19,90</span>
+                <button class="add-carrinho" data-nome="Açaí com Banana e Morango" data-preco="19.90">Adicionar ao Carrinho</button>
+            </div>
+            <div class="item">
+                <img src="acai2.jpg" alt="Açaí com Nutella">
+                <p>Açaí com Nutella e Granola</p>
+                <span>R$ 22,90</span>
+                <button class="add-carrinho" data-nome="Açaí com Nutella e Granola" data-preco="22.90">Adicionar ao Carrinho</button>
+            </div>
+            <div class="item">
+                <img src="acai3.jpg" alt="Açaí Tradicional">
+                <p>Açaí Tradicional</p>
+                <span>R$ 15,90</span>
+                <button class="add-carrinho" data-nome="Açaí Tradicional" data-preco="15.90">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrinho">
+        <h2>🛒 Carrinho de Compras</h2>
+        <ul id="lista-carrinho"></ul>
+        <p><strong>Total: R$ <span id="total">0.00</span></strong></p>
+        <button id="finalizar-pedido">Finalizar Pedido no WhatsApp</button>
+        <button id="pagar-online">💳 Pagar com Pix ou Cartão</button>
+    </section>
+
+    <footer>
+        <p>© 2024 Açaí Delivery - Feito com 💜</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

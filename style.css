@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #6a0572;
+    color: white;
+}
+
+header {
+    background: #4a004e;
+    padding: 20px;
+}
+
+.cardapio {
+    padding: 20px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.add-carrinho {
+    background: #ffcc00;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.carrinho {
+    padding: 20px;
+    background: #4a004e;
+}
+
+#lista-carrinho {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrinho li {
+    background: white;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#finalizar-pedido, #pagar-online {
+    background: #ffcc00;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#pagar-online {
+    background: #0072c6;
+    color: white;
+}
